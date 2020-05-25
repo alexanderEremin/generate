@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/PeopleFragment">
+
+    <fragment
+        android:id="@+id/PeopleFragment"
+        android:name="ru.eremin.generate.people.PeopleFragment"
+        app:defaultNavHost="true"
+        android:label="@string/label_people"
+        tools:layout="@layout/fragment_people">
+        <action
+            android:id="@+id/action_to_UserFragment"
+            app:destination="@id/UserFragment" />
+        <action
+            android:id="@+id/action_to_SettingFragment"
+            app:destination="@id/SettingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/UserFragment"
+        android:name="ru.eremin.generate.user.UserFragment"
+        android:label="@string/label_user"
+        tools:layout="@layout/fragment_user">
+        <argument
+            android:name="id"
+            app:argType="string"
+            android:defaultValue="error" />
+        <argument
+            android:name="surname"
+            app:argType="string"
+            android:defaultValue="error" />
+        <argument
+            android:name="name"
+            android:defaultValue="error" />
+        <argument
+            android:name="jobplace"
+            app:argType="string"
+            android:defaultValue="error" />
+        <argument
+            android:name="gender"
+            app:argType="string"
+            android:defaultValue="error" />
+        <argument
+            android:name="area"
+            app:argType="string"
+            android:defaultValue="error" />
+        <argument
+            android:name="avto"
+            app:argType="string"
+            android:defaultValue="error" />
+        <argument android:name="age"
+            app:argType="string"
+            android:defaultValue="error" />
+    </fragment>
+    <fragment
+        android:id="@+id/SettingFragment"
+        android:name="ru.eremin.generate.setting.SettingFragment"
+        android:label="@string/label_setting"
+        tools:layout="@layout/fragment_setting">
+
+    </fragment>
+</navigation>

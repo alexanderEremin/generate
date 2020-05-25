@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Generate</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Получить список</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="download_data">Требуется загрузить данные</string>
+    <string name="age_from">Начала отсчета возраста</string>
+    <string name="age_before">Конец отсчета возраста</string>
+    <string name="user_generation_period">Период генерации</string>
+    <string name="label_setting">Настройки</string>
+    <string name="label_user">Пользователь</string>
+    <string name="label_people">Список</string>
+    <string name="fase">fase user</string>
+    <string name="place">Район проживания</string>
+    <string name="jobplace">Место работы</string>
+    <string name="avto">Авто</string>
+    <string name="age">Возраст</string>
+    <string name="gender">Пол</string>
+    <string name="user_data">Данные пользователя</string>
+    <string name="icon">Иконка</string>
+</resources>

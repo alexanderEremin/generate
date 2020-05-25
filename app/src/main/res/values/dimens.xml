@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="margin_layout_edit">10dip</dimen>
+    <dimen name="margin_edit">10dip</dimen>
+    <dimen name="margin_user_header">20dip</dimen>
+
+    <dimen name="text_size_header">20sp</dimen>
+    <dimen name="list_name">16sp</dimen>
+    <dimen name="list_gender">14sp</dimen>
+    <dimen name="list_age">14sp</dimen>
+
+
+</resources>
